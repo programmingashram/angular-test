@@ -1,0 +1,13 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.mat-drawer-container{
+  height: 100vh;
+}
+a{
+  display: flex;
+  align-items: center;
+  .mat-icon{
+      margin-bottom: -5px;
+  }
+}

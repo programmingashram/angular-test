@@ -1,0 +1,15 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-third-page',
+  templateUrl: './third-page.component.html',
+  styleUrls: ['./third-page.component.scss']
+})
+export class ThirdPageComponent {
+
+    visibility!: boolean;
+
+    changeState(){
+      this.visibility = !this.visibility;
+    }
+}
